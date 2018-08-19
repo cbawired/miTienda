@@ -169,6 +169,52 @@
         <div class="grid-x">
             <div class="column large-3 callout">
                 <h4>Busqueda Avanzada</h4>
+                <form action="">
+                    <div class="row small-stack medium-unstack">
+                        <div class="large-12">
+                            <label for="">Por nombre: <input type="text" placeholder="omega 3"></label>
+                            <label for="">Por referencia: <input type="text" placeholder= "pastillas" aria-describedby="ayudaTexto"></label>
+                            <p class="help-text" id="ayudaTexto">Número único del producto.</p>
+                            <label for="">Por categoria:
+                                <select name="" id="">
+                                    <option value="">Hogar</option>
+                                    <option value="">Salud</option>
+                                    <option value="">Deporte</option>
+                                    <option value="">Tecnologia</option>
+                                    <option value="">Accesorios</option>
+                                    <option value="">Ropa</option>
+                                    <option value="">Mantenimiento</option>
+                                </select>
+                            </label>
+                            <fieldset class="fieldset">
+                                <legend>Tipo de Producto</legend>
+                                <input type="checkbox" id="nuevo"> <label for="nuevo">Nuevo</label>
+                                <input type="checkbox" id="usado"><label for="usado">Usado</label>
+                            </fieldset>
+                            <fieldset class="fieldset">
+                                <legend>Tipo de precio:</legend>
+                                <input type="radio" name="pleno" value="pleno" id="pleno"><label for="pleno">Pleno</label>
+                                <input type="radio" name="oferta" value="oferta" id="oferta"><label for="oferta">Oferta</label>
+                            </fieldset>
+                            <div class="switch large expanded">
+                                <label for="">¿Buscar productos agotados?
+                                    <input class="switch-input float-right" id="ejSwitch" type="checkbox" name="ejSwitch">
+                                    <label class="switch-paddle float-right" for="ejSwitch">
+                                        <span class="switch-active" aria-hidden="true">Si</span>
+                                        <span class="switch-inactive" aria-hidden="true">No</span>
+                                    </label>
+                                </label>
+                            </div>
+                            <div class="grid-x">
+                                <div class="large-12">
+                                    <input type="submit" class="button expanded" value="Buscar" id="enviar">
+                                </div>
+                           </div>
+                         
+                        </div>
+                    </div>
+                </form>
+                
             </div>
             <div class="column large-9">
                 <div class="large-12 callout">
